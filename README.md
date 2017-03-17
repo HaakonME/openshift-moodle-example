@@ -3,7 +3,7 @@ Moodle on OpenShift
 
 This git repository helps you get up and running quickly w/ a Moodle installation on OpenShift.  
 
-Running Moodle 3.1 on OpenShift
+Running Moodle 3.2 on OpenShift
 ----------------------------
 
 Create an account at https://www.openshift.com and install the client tools (run 'rhc setup' first)
