@@ -1,5 +1,5 @@
 Name:		openshift-origin-cartridge-moodle
-Version:	3.2
+Version:	3.3
 Release:	1%{?dist}
 Summary:	Provides Moodle cartridge to OpenShift. (Cartridge Format V2)
 
@@ -10,11 +10,11 @@ Source0:	openshift-origin-cartridge-moodle.tar.gz
 BuildRoot:	%(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 
 Requires:	openshift-origin-node-util
-Requires:   php54
-Requires:   php54-php-gd
-Requires:   php54-php-mbstring
-Requires:   php54-php-soap
-Requires:   php54-php-xmlrpc
+Requires:   php7
+Requires:   php7-php-gd
+Requires:   php7-php-mbstring
+Requires:   php7-php-soap
+Requires:   php7-php-xmlrpc
 
 %description
 Moodle is a learning platform designed to provide educators, administrators and learners with a single robust, secure and integrated system to create personalised learning environments. You can download the software onto your own web server or ask one of our knowledgable Moodle Partners to assist you.
