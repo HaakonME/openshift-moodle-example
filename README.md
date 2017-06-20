@@ -11,7 +11,7 @@ Create an account at https://www.openshift.com and install the client tools (run
 Create a Moodle 3.3-instance with nginx 1.9.12, php 7.0.7, postgresql 9.2 and cron application (you can call your application whatever you want)
 
 
-	rhc app-create your_app_name --env OPENSHIFT_NGINX_VERSION=1.9.12 http://cartreflect-claytondev.rhcloud.com/github/boekkooi/openshift-cartridge-nginx --env OPENSHIFT_PHP_VERSION=7.0.7 http://cartreflect-claytondev.rhcloud.com/github/boekkooi/openshift-cartridge-php --env OPENSHIFT_POSTGRESQL_VERSION=9.4 http://cartreflect-claytondev.rhcloud.com/github/liberapay/openshift-cartridge-postgres cron --namespace your_namespace --from-code=https://github.com/HaakonME/openshift-moodle-example.git -l your_email_address -p your_password
+	rhc app-create your_app_name --env OPENSHIFT_NGINX_VERSION=1.9.12 http://cartreflect-claytondev.rhcloud.com/github/boekkooi/openshift-cartridge-nginx --env OPENSHIFT_PHP_VERSION=7.0.7 http://cartreflect-claytondev.rhcloud.com/github/boekkooi/openshift-cartridge-php --env OPENSHIFT_POSTGRESQL_VERSION=9.3.6 --env OPENSHIFT_POSTGRESQL_VERSION=9.3.6 http://cartreflect-claytondev.rhcloud.com/github/crunchydata/openshift-postgres-cartridge cron --namespace your_namespace --from-code=https://github.com/HaakonME/openshift-moodle-example.git -l your_email_address -p your_password
 
 That's it, you can now checkout your application at:
 
