@@ -5,6 +5,8 @@
 # could be python, php, ruby, etc.
 #!/bin/bash
 
+#2017-06-20-HME OpenShift v2 has old cartridges, so from now on we assume nginx and php7 is pulled in.
+
 # To update the version shipped in this quickstart, bump this variable:
 #
 install_version="3.3+"
